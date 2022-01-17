@@ -1,0 +1,74 @@
+[
+  {
+      "category": 1,
+      "name": "Диван",
+      "image": "products_images/product-3-sm.jpg",
+      "short_desc": "Удобный диван",
+      "description": "Лучший диван для дома",
+      "price": "15000.00",
+      "quantity": 4
+  },
+  {
+      "category": 1,
+      "name": "Чайник",
+      "image": "products_images/product-3.jpg",
+      "short_desc": "Умный чайник",
+      "description": "Чайник с возможностью запуска с телефона!",
+      "price": "8000.00",
+      "quantity": 10
+  },
+  {
+      "category": 2,
+      "name": "Часы",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "Офисные часы",
+      "description": "Стильные часы в Ваш офис.",
+      "price": "2000.00",
+      "quantity": 8
+  },
+  {
+      "category": 2,
+      "name": "Кресло",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "Офисное кресло",
+      "description": "Большое кресло для работы в офисе.",
+      "price": "12800.00",
+      "quantity": 15
+  },
+  {
+      "category": 3,
+      "name": "Кресло",
+      "image": "products_images/product-2.jpg",
+      "short_desc": "Стильное кресло",
+      "description": "Красивое кресло для интерьера в стиле \"Модерн\".",
+      "price": "15000.00",
+      "quantity": 10
+  },
+  {
+      "category": 3,
+      "name": "Светильник",
+      "image": "products_images/product-2-sm.jpg",
+      "short_desc": "Изящный светильник",
+      "description": "Красивый светильник на стену.",
+      "price": "2500.00",
+      "quantity": 5
+  },
+  {
+      "category": 4,
+      "name": "Стол",
+      "image": "products_images/slider-hotdeal.jpg",
+      "short_desc": "Стандартный стол",
+      "description": "Простой стол, подойдёт в любой интерьер.",
+      "price": "5000.00",
+      "quantity": 20
+  },
+  {
+      "category": 4,
+      "name": "Светильник",
+      "image": "products_images/product-5-sm.jpg",
+      "short_desc": "Стильный светильник",
+      "description": "Прекрасный светильник на кухню.",
+      "price": "3000.00",
+      "quantity": 7
+  }
+]
