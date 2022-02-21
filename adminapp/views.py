@@ -156,6 +156,20 @@ class ProductCategoryDeleteView(DeleteView):
         return context
 
 
+# class ProductListView(ListView):
+#     model = Product
+#     template_name = 'adminapp/products.html'
+#     context_object_name = 'objects'
+#
+#     @method_decorator(user_passes_test(lambda u: u.is_superuser))
+#     def dispatch(self, *args, **kwargs):
+#         return super().dispatch(*args, **kwargs)
+#
+#     def get_context_data(self, *, object_list=None, **kwargs):
+#         context = super(ProductListView, self).get_context_data(**kwargs)
+#         context['title'] = 'Админка/Продукт'
+#         return context
+
 @user_passes_test(lambda u: u.is_superuser)
 def products(request, pk):
     title = 'Админка/Продукт'
