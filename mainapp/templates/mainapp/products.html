@@ -9,7 +9,6 @@
 		<div class="hero-white">
 			<div class="header clearfix">
 				{% include 'geekshop/includes/main_menu.html' %}
-                <a href="#" class="basket"></a>
 			</div>
 		</div>
 
@@ -79,6 +78,19 @@
 				  {% endif %}
 			  </div>
 			  <div class="related-products clearfix">
+
+			  <div class="paginator">
+				  {% if products.has_previous %}
+					<a href="{% url 'products:page' category.pk products.previous_page_number %}"><</a>
+				  {% endif %}
+				  <span class="current">
+					страница {{ products.number }} из {{ products.paginator.num_pages }}
+				  </span>
+				  {% if products.has_next %}
+					<a href="{% url 'products:page' category.pk products.next_page_number %}">></a>
+				  {% endif %}
+			  </div>
+
 
 				{% for product in products %}
 				  <div class="block">
