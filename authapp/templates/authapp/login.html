@@ -15,4 +15,8 @@
     <button class="btn btn-round form-control">
         <a href="{% url 'auth:register' %}" class="">Зарегистрироваться</a>
     </button>
+    <button class="btn btn-round form-control">
+        <img src="/media/vk.png">
+        <a href="{% url 'social:begin' 'vk-oauth2' %}?next=/">Войти через VK</a>
+    </button>
 {% endblock %}
